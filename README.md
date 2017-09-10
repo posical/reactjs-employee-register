@@ -4,7 +4,7 @@ Test Project to create a mock employee registry CRUD
 
 Project Description
 ---
-A simple Front-end to make API calls. 
+A simple ReactJS Front-end to make API calls. 
 
 
 File structure
