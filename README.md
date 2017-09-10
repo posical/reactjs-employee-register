@@ -19,7 +19,7 @@ File structure
     * about/
       * AboutPage.js
     * common/
-      * CheckBos.js
+      * CheckBox.js
       * Header.js
       * TextInput.js
     * employees/
