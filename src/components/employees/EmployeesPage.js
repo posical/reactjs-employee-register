@@ -14,7 +14,7 @@ class EmployeesPage extends React.Component {
     const employees = this.props.employees;
     return (
       <div className="col-md-12">
-        <h1>Cats <Link to={'/employees/new'} className="btn btn-primary">+ employee</Link></h1>
+        <h1>Employees <Link to={'/employees/new'} className="btn btn-primary">+ employee</Link></h1>
         <div className="col-md-4">
           <EmployeeList employees={employees} />
         </div>
