@@ -21,7 +21,7 @@ export default function employeeReducer(state = initialState.employees, action) 
       ]
     case types.DELETE_EMPLOYEE_SUCCESS: {
       const newState = Object.assign([], state);
-      const indexOfCatToDelete = state.findIndex(employee => {return employee.id == action.employee.id})
+      const indexOfEmployeeToDelete = state.findIndex(employee => {return employee.id == action.employee.id})
       newState.splice(indexOfEmployeeToDelete, 1);
       browserHistory.push('/employees');
       return newState;
